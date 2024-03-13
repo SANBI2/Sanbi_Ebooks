@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Sanbi_Books_Gallary</title>
+  
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="Sb.png" type="image/x-icon">
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+
+    <!-- 
+      - #HEADER
+    -->
+  
+    <header class="header" data-header>
+      <div class="container">
+  
+        <a href="#" class="logo">
+          <img src="./assets/images/Sb.png" width="119" height="37" alt="Wren logo">
+        </a>
+  
+        <nav class="navbar" data-navbar>
+  
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img src="./assets/images/Sb.png" width="119" height="37" alt="Wren logo">
+            </a>
+  
+            <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+  
+          <ul class="navbar-list">
+  
+            <li>
+              <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+            </li>
+  
+            <li>
+              <a href="#books" class="navbar-link hover-1" data-nav-toggler>Books</a>
+            </li>
+  
+            <li>
+              <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured Book</a>
+            </li>
+  
+            <li>
+              <a href="#link" class="navbar-link hover-1" data-nav-toggler>Link Page</a>
+            </li>
+  
+            <li>
+              <a href="#contact" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+            </li>
+  
+          </ul>
+  
+          <div class="navbar-bottom">
+  
+            <div class="profile-card">
+              <img src="./assets/images/author.jpg" width="48" height="48" alt="Steven" class="profile-banner">
+  
+              <div>
+                <p class="card-title">Hello Steven !</p>
+  
+                <p class="card-subtitle">
+                  You have 3 new messages
+                </p>
+              </div>
+            </div>
+  
+            <ul class="link-list">
+  
+              <li>
+                <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+              </li>
+  
+              <li>
+                <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+              </li>
+  
+              <li>
+                <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+              </li>
+  
+              <li>
+                <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+              </li>
+  
+              <li>
+                <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
+              </li>
+  
+              <li>
+                <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+              </li>
+  
+            </ul>
+  
+          </div>
+  
+          <p class="copyright-text">
+            Copyright © SANBI  Cyber Security Solutions. All rights reserved.
+          </p>
+  
+        </nav>
+  
+        <a href="#" class="btn btn-primary">Subscribe</a>
+  
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+  
+      </div>
+    </header>
+  
+
+
+
+
+    <main>
+        <article>
+    
+          <!-- 
+            - #HERO
+          -->
+    
+          <section class="hero" id="home" aria-label="home">
+            <div class="container">
+    
+              <div class="hero-content">
+    
+                <p class="hero-subtitle">Hello Everyone!</p>
+                <br>
+                <p class="hero-subtitle">Welcome to,</p>
+                <h1 class="headline headline-1 section-title">
+                 <span class="span">Sanbi</span> Ebooks
+                </h1>
+    
+                <p class="hero-text">
+                  We believe that knowledge is the key to personal and professional growth, and our mission is to empower individuals with the information they need to succeed.
+                </p>
+    
+                <div class="input-wrapper">
+    
+                  <input type="email" name="email_address" placeholder="Type your email address" required
+                    class="input-field" autocomplete="off">
+    
+                  <button class="btn btn-primary">
+                    <span class="span">Subscribe</span>
+     
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </button>
+    
+                </div>
+    
+              </div>
+    
+              <div class="hero-banner">
+    
+                <img src="./assets/images/Screenshot-2024-02-09-221356.png" width="327" height="490" alt="Wren Clark" class="w-100">
+    
+                <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+    
+                <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+    
+              </div>
+    
+              <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+    
+              <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+    
+            </div>
+          </section>
+        <div id="books">
+       <!-- Row 1 -->
+    <div class="contain">
+      <div class="book">
+        <img src="inc/img/A.Bug.Bounty.Hunting.Journey-pages-1.jpg"
+          alt="Book Cover" class="lazyload">
+        <h2>A Bug Bounty Hunting Journey</h2>
+        <br>
+        <button type="button" class="btn btn-success">
+          <a href="pdf/A.Bug.Bounty.Hunting.Journey.pdf" target="_blank"
+            style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <a
+          href="pdf/Black hat Python _ Python programming for hackers and pentesters ( PDFDrive ).pdf">
+          <img
+            src="inc/img/Black hat Python _ Python programming for hackers and pentesters ( PDFDrive )-pages-1.jpg"
+            alt="Black Hat python" class="lazyload">
+        </a>
+        <h2>Black hat Python programming for hackers and pentesters</h2>
+        <br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/Black hat Python _ Python programming for hackers and pentesters ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/breaking.jpg" alt="Book 3" class="lazyload">
+        <h2>Breaking Into Information Security</h2>
+        <br />
+        <button type="button" class="btn btn-success">
+          <a href="pdf/breaking into infosec .pdf" target="_blank"
+            style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img
+          src="inc/img/Bug Bounty Bootcamp th guide to finding and reporting web vulnerabilities-pages-1.jpg"
+          alt="Book 4" class="lazyload">
+        <h2>Bug Bounty Bootcamp -Guide To Web vulnerabilities</h2>
+        <br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/Bug Bounty Bootcamp th guide to finding and reporting web vulnerabilities.pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+    </div>
+
+    <br /><hr>
+
+    <!-- Row 2 -->
+    <div class="contain">
+      <div class="book">
+        <img src="inc/img/Owasp Testing Guide v4 ( PDFDrive )-pages-1.jpg"
+          alt="Book 1">
+        <h2>Owasp Testing Guide v4</h2><br />
+        <button type="button" class="btn btn-success">
+          <a href="pdf\Owasp Testing Guide v4 ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/zseanos-book.jpg" alt="Book 2">
+        <h2>zseanos-bugbounty-methodology</h2><br />
+        <button type="button" class="btn btn-success">
+          <a href="pdf\zseanos-bugbounty-methodology.pdf" target="_blank"
+            style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/realworldbughunting.jpg" alt="Book 3">
+        <h2>Real-World Bug Hunting_ A Field Guide to Web Hacking</h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf\Real-World Bug Hunting_ A Field Guide to Web Hacking Real-World Bug Hunting_ A Field Guide to Web Hacking ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/grayhatbook.jpg" alt="Book 3">
+        <h2>Gray Hat Hacking The Ethical Hacker’s Handbook</h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf\Gray Hat Hacking The Ethical Hacker’s Handbook ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+    </div>
+    <br /><hr>
+    <!-- Row 3 -->
+    <div class="contain">
+      <div class="book">
+        <img src="inc/img/web-hacking-101-pages-1.jpg" alt="Book 1">
+        <h2>Web Hacking 101</h2><br />
+        <button type="button" class="btn btn-success">
+          <a href="pdf/web-hacking-101.pdf" target="_blank"
+            style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img
+          src="inc/img/The Hacker Playbook_ Practical Guide To Penetration Testing ( PDFDrive )-pages-1.jpg"
+          alt="Book 2">
+        <h2>The Hacker Playbook_ Practical Guide To Penetration Testing</h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/The Hacker Playbook_ Practical Guide To Penetration Testing ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/The Hacker Playbook_ Practical Guide 2.jpg"
+          alt="Book 3">
+        <h2>The Hacker Playbook 2_ Practical Guide To Penetration Testing</h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/The Hacker Playbook 2_ Practical Guide To Penetration Testing ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/The Hacker Playbook 3_ Practical Guide 3.jpg"
+          alt="Book 3">
+        <h2>The Hacker Playbook 3_ Practical Guide To Penetration Testing</h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/The Hacker Playbook 3_ Practical Guide To Penetration Testing ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+    </div>
+    <br /><hr>
+    <!-- Row 4 -->
+    <div class="contain">
+      <div class="book">
+        <img
+          src="inc/img/Hacking_ the art of exploitation ( PDFDrive )-pages-1.jpg"
+          alt="Book Cover">
+        <h2>Hacking_ the art of exploitation</h2><br />
+        <button type="button" class="btn btn-success">
+          <a href="pdf/Hacking_ the art of exploitation ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img
+          src="inc/img/CompTIA Security+ Get Certified Get Ahead_ SY0-501 Study Guide ( PDFDrive )-pages-1.jpg"
+          alt="Book 2">
+        <h2>CompTIA Security+ Get Certified Get Ahead_ SY0-501 Study Guide</h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/CompTIA Security+ Get Certified Get Ahead_ SY0-501 Study Guide ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/CompTIA Network+.jpg" alt="Book 3">
+        <h2>CompTIA Network+ Exam N10-006</h2><br />
+        <button type="button" class="btn btn-success">
+          <a href="pdf/CompTIA Network+ Exam N10-006 ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/The Web Application Hacker's Handbook.jpg"
+          alt="Book cover 4">
+        <h2>The Web Application Hacker's Handbook </h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/The Web Application Hacker's Handbook - WordPress.com ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+    </div>
+    <br /><hr>
+    <!-- Row 5-->
+    <div class="contain">
+      <div class="book">
+        <img src="inc/img/BruteForcingAndSupplyChainAttacks-pages-1.jpg"
+          alt="Book Cover">
+        <h2>BruteForcing And Supply Chain Attacks</h2><br />
+        <button type="button" class="btn btn-success">
+          <a href="pdf/BruteForcingAndSupplyChainAttacks.pdf" target="_blank"
+            style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img
+          src="inc/img/Penetration testing a Hands-on introduction to Hacking ( PDFDrive )-pages-1.jpg"
+          alt="Book 2">
+        <h2>Penetration testing a Hands-on introduction to Hacking </h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/Penetration testing a Hands-on introduction to Hacking ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/CCNAExam100-105.jpg" alt="Book 3">
+        <h2>CCNA Routing and Switching Complete Study Guide Exam 100-105, Exam
+          200-105, Exam 200-125</h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/CCNA Routing and Switching Complete Study Guide Exam 100-105, Exam 200-105, Exam 200-125 ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/eLearnSecuritynotes.jpg" alt="Book 4">
+        <h2>eLearnSecurity Junior Penetration Testing Notes by Joas </h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/eLearnSecurity Junior Penetration Testing Notes by Joas.pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+    </div>
+    <br /><hr>
+    <!-- Row 6-->
+    <div class="contain">
+      <div class="book">
+        <img src="inc/img/hackign with kali linux.jpg" alt="Book Cover">
+        <h2>Hacking with Kali Linux Practical Guide (Daniel Howard)</h2>
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/Hacking with Kali Linux Practical Guide (Daniel Howard).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/The advanced penetration testin.jpg" alt="Book 2">
+        <h2>THE ADVANCED PENETRATING TESTING Step-By-Step Guide To Ethical
+          Hacking and Penetration Testing Made Easy</h2>
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/THE ADVANCED PENETRATING TESTING  Step-By-Step Guide To Ethical Hacking and Penetration Testing Made Easy (JEFF, DR. PATRICK).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/Social enginer.jpg" alt="Book 3">
+        <h2>Social Engineering The Art of Psychological Warfare, Human Hacking,
+          Persuasion, and Deception (Vince Reynolds)</h2>
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/Social Engineering The Art of Psychological Warfare, Human Hacking, Persuasion, and Deception.pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/Hacking for dummies.jpg" alt="Book cover 4">
+        <h2>Hacking for Dummies (Kevin Beaver)</h2>
+        <button type="button" class="btn btn-success">
+          <a href="pdf/Hacking for Dummies (Kevin Beaver).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+    </div>
+    <br /><hr>
+    <!-- Row 7-->
+    <div class="contain">
+      <div class="book">
+        <img src="inc/img/understanding networks.jpg" alt="Book Cover">
+        <h2>Understanding Network Hacks Attack and Defense with Python (Bastian
+          Ballmann)</h2>
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/Understanding Network Hacks Attack and Defense with Python (Bastian Ballmann) (Z-Library).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/how to hack.jpg" alt="Book 2">
+        <h2>How to Hack Computers how to hack computers, hacking for beginners,
+          penetration testing, hacking for dummies, computer(Tope, Joel)</h2>
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/How to Hack Computers how to hack computers, hacking for beginners, penetration testing, hacking for dummies, computer... (Tope, Joel)).pdf ADVANCED PENETRATING TESTING  Step-By-Step Guide To Ethical Hacking and Penetration Testing Made Easy (JEFF, DR. PATRICK).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/hacking practical guide.jpg" alt="Book 3">
+        <h2>Hacking Practical Guide for Beginners (Hacking With Python) (Jeff
+          Simon)</h2>
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/Hacking Practical Guide for Beginners (Hacking With Python).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/wifi hacking.jpg" alt="Book cover 4">
+        <h2>WiFi Hacking for Beginners (James Wells)</h2>
+        <button type="button" class="btn btn-success">
+          <a href="pdf/WiFi Hacking for Beginners (James Wells) (Z-Library).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+    </div>
+    <br /><hr>
+    <!-- Row 8 working on-->
+    <div class="contain">
+      <div class="book">
+        <img src="inc/img/offsec-advanced-kali.jpg"
+          alt="Book 1">
+        <h2>Advanced Web Attacks and Exploitation (F3thinker)</h2><br />
+        <button type="button" class="btn btn-success">
+          <a href="pdf/Advanced Web Attacks and Exploitation (F3thinker ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/api-hacking-1.jpg" alt="Book 2">
+        <h2>Hacking APIs Breaking Web Application Programming Interfaces (Corey J. Ball)</h2><br />
+        <button type="button" class="btn btn-success">
+          <a href="pdf/Hacking APIs Breaking Web Application Programming Interfaces (Corey J. Ball).pdf" target="_blank"
+            style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/api-hacking-final.jpg" alt="Book 3">
+        <h2>Hacking APIs Breaking Web Application Programming Interfaces (Final Release) (Corey J. Ball)</h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/Hacking APIs Breaking Web Application Programming Interfaces (Final Release) (Corey J. Ball).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/hardware-hacking.jpg" alt="Book 3">
+        <h2>The Hardware Hacking Handbook (Jasper van Woudenberg, Colin O’Flynn) </h2><br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/The Hardware Hacking Handbook (Jasper van Woudenberg, Colin O’Flynn) (Z-Library).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+    </div>
+    <br />
+    <!-- Row 9 -->
+    <div class="contain">
+      <div class="book">
+        <img src="inc/img/A.Bug.Bounty.Hunting.Journey-pages-1.jpg"
+          alt="Book Cover" class="lazyload">
+        <h2>Book 1</h2>
+        <br>
+        <button type="button" class="btn btn-success">
+          <a href="pdf/A.Bug.Bounty.Hunting.Journey.pdf" target="_blank"
+            style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <a
+          href="pdf/Black hat Python _ Python programming for hackers and pentesters ( PDFDrive ).pdf">
+          <img
+            src="inc/img/Black hat Python _ Python programming for hackers and pentesters ( PDFDrive )-pages-1.jpg"
+            alt="Black Hat python" class="lazyload">
+        </a>
+        <h2>Book 2</h2>
+        <br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/Black hat Python _ Python programming for hackers and pentesters ( PDFDrive ).pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img src="inc/img/breaking.jpg" alt="Book 3" class="lazyload">
+        <h2>Book 3</h2>
+        <br />
+        <button type="button" class="btn btn-success">
+          <a href="#" target="_blank"
+            style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+      <div class="book">
+        <img
+          src="##"
+          alt="Book 4" class="lazyload">
+        <h2>Book 4</h2>
+        <br />
+        <button type="button" class="btn btn-success">
+          <a
+            href="pdf/Bug Bounty Bootcamp th guide to finding and reporting web vulnerabilities.pdf"
+            target="_blank" style="color: white; text-decoration: none;">
+            Download
+          </a>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- 
+    - #FOOTER
+  -->
+  <div id="contact">
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/Sb.png" width="119" height="37" alt="Wren logo">
+            </a>
+
+            <p class="footer-text">
+              "The reality of the digital world is that everyone is potentially dangerous. Hence, we need to turn to Zero Trust.
+              " "Zero Trust is the logical evolution of cybersecurity in a world where boundaries are increasingly blurring."
+            </p>
+
+            <p class="footer-list-title">Address</p>
+
+            <address class="footer-text address">
+              Janakpur,Nepal <br>
+              
+            </address>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categories</p>
+
+            <ul>
+
+              <li>
+                <a href="#" class="footer-link hover-2">AI</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Machine Learning</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Computer Vision</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Block Chain</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">America</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Image-Processing</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">SQL</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Coding</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Web Development</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Cloud Security</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Digital Forensics</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Networking</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Newsletter</p>
+
+            <p class="footer-text">
+              Sign up to be first to receive the latest stories inspiring us, case studies, and industry news.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">Sanbi.</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+</div>
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
